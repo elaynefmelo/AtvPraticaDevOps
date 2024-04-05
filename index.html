@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Boas-Vindas</title>
+</head>
+<body>
+    <h1>Bem-vindo(a)!</h1>
+    <p>Por favor, preencha suas informações abaixo:</p>
+    
+    <form onsubmit="enviarFormulario(); return false;">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br>
+
+        <label for="idade">Idade:</label><br>
+        <input type="number" id="idade" name="idade"><br>
+
+        <label for="cidade">Cidade:</label><br>
+        <input type="text" id="cidade" name="cidade"><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
